@@ -1,0 +1,14 @@
+import turtle
+# insert variable here
+turtle.penup() #pick up thepen so it doesn't draw
+turtle.goto(0,0) #move the turtle to the
+#position , -200 , -100 , on
+#the screen
+turtle.pendown() #put the pen down to star drawing
+side_length=10000000
+
+turtle.goto(0,side_length)
+turtle.goto(side_length,side_length)
+turtle.goto(side_length,0)
+turtle.goto(0,0)
+#... and end it before the next line
